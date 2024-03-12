@@ -1,0 +1,55 @@
+필요
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3: 박스모델</title>
+    <style>
+      .div {background : yellowgreen;
+            width : 150px;
+            height : 80px;
+            /* margin : 10px; */
+            margin : 0 30px 0 30px;
+            border : 20px solid black;
+            /* padding: 20px;*/
+            padding : 0 20px 0 20px;
+             }
+    </style>
+</head>
+<body>
+  <h2>CSS3: 박스모델(box-model)과 속성</h2>
+  <div>
+  <p>박스 모델의 구성요소</p>
+  <ul>
+    <li>content : HTML 태그의 텍스트나 이미지가 출력되는 부분</li>
+    <li>padding : 콘텐츠를 직접 둘러싸고 있는 내부 여백</li>
+    <li>border : 패딩 외부의 테두리</li>
+    <li>margin : 박스의 맨 바깥 영역</li>
+  </ul>
+  </div>
+  <div>
+    <p>박스 모델의 속성</p>
+    <ul>
+      <li>content와 관련된 속성 : width,height</li>
+      <li>padding과 관련된 속성 : padding,padding-top
+              padding-bottom,padding-left,padding-right</li>
+      <li>border와 관련된 속성 : border 선의 모양,선굵기,선색상
+      <ul>
+        <li>border-width : border-top-width,-bottom,-left,-right</li>
+        <li>border-style : border-top-width,-bottom,-left,-right</li>
+        <li>border-color : border-top-width,-bottom,-left,-right</li>
+      </ul>
+      </li>
+      <li> margin과 관련된 속성 : margin,
+              margin-top,margin-bottom,margin-left,margin-right</li>
+
+      <li></li>
+    </ul>
+  </div>
+<hr>
+  <h3>박스모델 예시</h3>
+<div class="div">
+  DIVDIV
+</div>
+</body>
+</html>
